@@ -1,0 +1,22 @@
+energy consumption and heat dissipation issues that limited the increase of the clock frequency and the level of productive activities that can be performed in each clock period within a single CPU
+continue to enjoy performance improvement with each new generation of microprocessors will be parallel programs, in which multiple threads of execution cooperate to complete
+the work faster.
+
+The multicore trajectory seeks to maintain the execution speed of sequential programs while moving into multiple cores.
+the many-thread trajectory focuses more on the execution throughput of parallel applications. Many-threads processors, especially the GPUs, have led the race of floating-point performance since 2003
+
+
+Cores are physical processing units.
+Threads are virtual sequences of instructions given to a CPU. 
+Multithreading allows for better utilization of available system resources by dividing tasks into separate threads and running them in parallel.
+Hyperthreading further increases performance by allowing processors to execute two threads concurrently. 
+
+https://www.liquidweb.com/blog/difference-cpu-cores-thread/#:~:text=Understanding%20CPU%20Threads,speed%20and%20efficiency%20of%20multitasking.
+
+GeForce 8800 GTX, or simply G80, was capable of moving data at about 85 gigabytes per second (GB/s) in and out of its main dynamic random-access memory (DRAM) because of graphics frame buffer requirements and the relaxed memory model
+
+The design philosophy of GPUs is shaped by the fast-growing video game industry that exerts tremendous economic pressure for the ability to perform a massive number of floating-point calculations per video frame in advanced games.
+The prevailing solution is to optimize for the execution throughput of massive numbers of threads. The design saves chip area and power by allowing pipelined memory channels and arithmetic operations to have long latency.
+
+The hardware takes advantage of the large number of threads to find work to do when some of them are waiting for long-latency memory accesses or arithmetic operations. Small cache memories are provided to help control the bandwidth requirements of these applications so that multiple threads that access the same memory data do not need to all go to the DRAM. This design style is commonly referred to as throughput-oriented design since it strives to maximize the total execution throughput of a large number of threads while allowing individual threads
+to take a potentially much longer time to execute.

@@ -1,0 +1,16 @@
+#ifdef -- like id statement use to check if the macro is defined.
+#else -- like a else for #ifdef
+#endif-- neccassary to end #ifdef
+#undef -- to undefine a macro
+#ifndef -- negation of #ifdef
+
+#opertator in a Macro is use to convert the parameter in the macro as string. EG -
+	#define STR(data) #data
+	STR(ansh)
+will generate
+	"ansh"
+	The only difference between a parameterized macro and one without parameters
+is the parentheses immediately following the macro name
+	 enum variables cannot be used to index an array. The following will result in an error:
+new() operator (variable=new <type>[value]: The new operator is used to allocate memory for an object on the heap and construct the object.
+delete operator (del ptr) : The delete operator is used to deallocate the memory previously allocated by new and destroy the object.

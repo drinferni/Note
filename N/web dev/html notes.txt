@@ -1,0 +1,60 @@
+html
+<html lang="en-US">
+<p></p>
+<strong></strong>   <em></em>  <b></b>  <i></i>  <u></u>
+<img src= "" alt="" width="" height="" title="">
+<figure><figcaption></figcaption></figure>
+#in head <meta> === meta data ( information about data in the website )
+charset="utf-8"
+(in name)
+	-- character encoding
+	-- description
+	-- keywords == search engine aid
+	-- author
+	-- robots- content == "value1,value2" default == index,follow else noindex,nofollow,noarchive,nosnippet
+	-- viewport- content == ""  propeties == width="device-width", ( maximum-scale, minimum-scale, and user-scalable == default is most optimized)
+(in property) opengraph properties == og:image og:discription
+<h1></h1> etc.
+<!-- wdksfn --> == commment
+<ul></ul>  <ol></ol>  <li> </li> <dl><dt><dd></dd></dt></dl> == lists
+<a href="" title-"" download=""> == anchor mailto example=mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&subject=This%20is%20the%20subject
+#in head <link rel="" sizes="axb" href=""> rel== icon,spredsheet,preconnect,canonical,alternate
+#in head <script src="">
+<input> 
+	-- type == text,password,number,email,checkbox,radio,submit,file,submit,reset,button,date,time ,color,range,search,url,tel,hidden,image(like a submit button with an image) 
+	-- name == identify input when sun=bmiiting a form
+	-- value == initial value of
+	-- placeholder == hinting
+	-- required
+	-- diabled
+	-- readonly
+<abbr></abbr> -- title=""
+<sub></sub>   <sup></sup>  <address></address>
+<code></code> -- code 
+<pre></pre> -- retain whitespaces
+<samp></samp> -- output
+<kbd></kbd> -- display keyboard input
+<var></var> -- display variable 
+ 
+<blockquote></blockquote> <q></q> <cite></cite> == quotation and citation
+( &lt; == < , &gt; == > , &quot; == " , &apos; == ' , &amp; == &)
+document defragment == id-""  href by #
+non sematics wrapper == <span></span> <div></div> preferably used with class
+<time datetime="YYYY-MM-DDT00:00></time>
+structure ==
+	--header: <header></header>
+	--navigation bar: <nav></nav>
+	--main content <main></main> sub ---<article></article> <section></section> 
+	--sidebar : inside main : <aside></aside>
+	--footer : <footer></footer>
+<br>  <hr>
+<video controls width height autoplay loop muted preload="none/auto/metadata" poster="an image"> <source src=""> <track kind="subtitles/captions/description/chapters/metadata" src="" srclang="" label=""> </video>
+<iframe src="" width="" height="" allowfullscreen sandbox="allow-forms/allow-pointer-lock/allow-popups/allow-same-origin/allow-scripts/allow-top-navigation" border : none>
+SVG Images :: using <img> <svg> or <iframe> <svg> for simple images
+Resposive Images :: by <img> -- scrset="..... size in w ,.... size in w" sizes="(condition) if true, if false"  or scrset=" .... Nx,.... Mx"
+		    by <pictures> <source media="(condition :: max-width/min-width)" scrset=""     </pictures>
+Tables
+<table> <tr> <td> <th scope="col"> </th> </td></tr> <caption></caption> <thead></thead> <tbody></tbody> <tfoot></tfoot> </table>
+<colgroup style="" span="">  </colgroup>
+
+

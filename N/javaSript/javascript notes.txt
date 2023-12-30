@@ -1,0 +1,124 @@
+javascript notes
+window.alert(  ); -- displays a message on the webpage (pop-up)
+window.prompt(  ); -- displays a question to be filled by the client as a pop up
+== -- type correction
+=== -- no type correction (more favoured)
+array.push(   ) and array.pop() in arrays
+array.shift(); -- remove the first element of the list
+array.unshift(  ,  );  -- adds two elements at the beginning of the list
+array.splice(index from where we need to add,number of elements to be removed after the index,elements...); --a addition of elements are optional, number of elements to be deleted can be zero
+array.slice(first index,last index) -- last index not included
+for loop == for (var i=0; i<4;i++) {}
+array.length -- find the length
+string.toLowerCase()
+string.toUpperCase()
+string.indexOf(sub-string) -- searchs the substring and returns the index of the first char else -1
+similarly string.lastIndexOf(sun-string)
+string.charAt(index) -- get the character at that index
+string.replace(sbustring to be replaced,substring to replace with) -- replace only one instance -- /substring to be replaced/g -- replaces all the instance
+Math.round(number to be rounded);
+Math.ceil(number);  Math.floor(number);
+Math.random();  from [0,1)
++ -- usually type converted to string
+
+objects in js
+	-- const object_name {properties and metheds} --} dynamic in nature
+	-- constructor -- this to substitute the function then use new in construction;
+	--object.keys(object_name) -- gives the keys of the object
+	-- delete property
+	-- property in object -- check if the property is in ibject
+
+pass by value -- = or when using object use ...
+pass by reference -- use objects like let boj={n=10}; let obj_2=obj;
+
+
+parseInt(operation)
+parseFloat(operation)
+Number(number) -- both parseInt and parseFloat
+number.toString();
+number.toFixed(number) -- round the number to the specified number of decimal places -- empty parentesis is equal to no decimal place
+Date object -- new Date();
+var now = new Date() ;
+now.getDay(); -- return a number ( 0 -sunday) 
+Date object format :: Day of the week,month,date,year,hours(24),miniutes,seconds,offset from greenwich,time zone
+now.getMonth() -- 0 is january
+now.getDate() -- day of the month
+now.getFullYear()
+now.getHours()
+now.getMinutes()
+now.getSeconds()
+now.getMilliseconds()
+now.getTime()
+replace get with set to set time except getTime()
+switch(variable) { case " " : ....} -- case need not be int
+// -- comment single-line 
+/* .... */ -- multi-line comment
+inline JAVASCRIPT ===  <a href="JavaScript:void(0)" onClick="js_function">Click</a>
+lly onMouseOver='property'
+lly onfocus='property'
+lly onblur='property' opposite of focus
+lly onsubmit='property'
+
+document.getElementById('fieldId');
+.value = to write and read the text submitted
+.innerHTML = to write and read the content of the tag
+.className="class" -- += to add a class
+verbose approch == 	var_representing_tag.attribute
+.style 
+	-- .fontSize= " ";
+	-- .cssFloat= " ";
+	-- .visibility = " " ;
+	-- margin = " a b c d";
+
+for all property == document.getComputedStyle("id").margin;
+documnent.getElementsByTagName("tag"); -- returns a collection 
+.childNodes[N] -- get the Nth child 
+.firstChild -- get the first child
+.lastChild -- get the last child
+.parentNode -- parent node
+.nextSibling
+.previousibling
+.childnodes -- list of childnodes
+node value -- eleements value is null,name is capalitise of there tag == example <p></p> == P
+		-- text node name is #text (in lower case) and it has a value;
+		-- element_var.nodeName;
+		-- element_Var.nodeValue;
+element_var
+.hasAttribute("") --true or false
+.getAttribute(" ")
+.setAttribute("property","value")
+.createTextNode("  ");
+.appendChild( );
+.insertbefore(toBeInserted,Reference);
+.removeChild(nodeToRemove);
+document.body.appendChild(a); -- to append to the document
+null ==> undefined
+prototype -- object.prototype.property= 
+in -- checks all the property even inherted
+object.hasOwnProperty(prop) -- doesn't check inherited property
+
+window.location.href == gives the location of the web browser,can control the location also
+window.loaction.hostname == domain name
+window.location.pathname == path name
+window.location.hash == particular section of the page
+document.URL same as window.location.href
+window.location.assign("url") --takes the browser to the new url
+window.location.replace("url") -- take to the new loaction but with no histroy of the previous
+window.location.reload(true); -- reload from the server
+window.location.reload(false),window.location.reload() -- reloads the page from the server
+history.back(-N)
+history.forward(N)
+document.referrer; --- URL of the page where
+the link was clicked
+window.open() -- opens a new window
+document.write(htmlCodeAsString)
+window.close(); -- closes the window
+window.open("url","name","width= ,height= ,left= ,right= ");
+eventListeners == onLoad, onSubmit
+var_dropDown.selectedIndex
+	-- int order 0,1,2,3...etc;
+var_radioButtons.checked -- return True if checked
+try .. catch(error) -- debugging
+throw -- better checking/debugging
+callback() => function  => problem -> control and callback hell
+

@@ -1,0 +1,13 @@
+hashing 
+
+hashing function == 
+	-- mod method = A prime not too close to an exact power of 2 is often good choice for table_size.
+	-- multiplication method = Suppose that the word size of the machine is w bits and that key fits into a single word.
+We restrict c to be a fraction of the form s / (2w), where s is an integer in the range 0 < s < 2w. 
+	--  multiplication method = 
+types of hashing
+	-- division method
+	-- mid aquare method
+	-- folding method
+	-- multiplication method
+

@@ -1,0 +1,12 @@
+javascript DOM manupliation
+
+-- append("strings")
+-- appendChild(nodes) # can not append 2 things at the same times
+--body.append(document.createElement("element"));
+element_variable.innerText  #only if it is visible on screen
+element_variable.textContent # both visible and invisible
+element_variable.remove()
+. to access attribute
+removeAttribute("attribute_name")
+element_variable.classList,add/remove/toggle("...");
+document.querySelector("..");

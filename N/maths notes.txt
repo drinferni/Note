@@ -1,0 +1,8 @@
+maths
+-- catalan numbers
+-- conditional probility
+-- total probabilty theorem
+-- bayes' theorem
+-- conditional independence == given events a,b,c. a and b are conditionally independent if the additional occurence of b when c has occurred does not change the probability of occurrence of a
+-- random variable: it is a real-valued function of the outcome of the experiment
+--expected value and variance of a probabilty distribution

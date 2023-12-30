@@ -1,0 +1,13 @@
+matplotlib as plt
+line graph == plt.plot(x,y,label=" ",color=" ",linewidth= ,marker=" ",markersize= ,markeredgecolor=" ",linestyle=" ") --- x and y are lists
+plt.show()
+plt.title("title",fontdict={ "fontname" : " ","fontsize" : })
+plt.xlabel(" ")
+plt.ylabel(" ")
+plt.xticks(list of ticks)
+plt.yticks(list of ticks)
+plt.legend()
+plt.figure(figsize=(x,y),dpi= )
+plt.savefig("graph_name",dpi= )
+bar graph -- plt.bar(label,values)
+bar[x].set_hatch(' ')

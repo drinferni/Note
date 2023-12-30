@@ -1,0 +1,33 @@
+oop in c++ 
+function overloading
+classes -- methods --> :: - to define the function outside of the class 
+	-- --> . to access the function in main
+constructor the method executed whwen the object is created
+Access specifiers === public,private,protected
+Encapsulation == make sure that "sensitive" data is hidden from users that is declared varibles
+Inhewritance == 
+	derived class (child) - the class that inherits from another class
+	base class (parent) - the class being inherited from
+	--> : -- to inherit like class inherited : public inherit
+	multilevel inheritance
+	multiple inheritance == class MyChildClass: public MyClass, public MyOtherClass
+	polymorphism : Polymorphism means "many forms"
+
+
+file hanfling in c++
+	#include <fstream>
+	ofstream/ifstream file_variable
+	file_variable.open(file path);
+	file_variable<<data to be wriiten;
+	file_variable>>variable (only one word);
+	getline(file_var,string_var) -- returns only one line
+	file_var.get(string_var) -- get one char
+	std::remove(file_path) --delete the file
+
+overloading in c++
+	return_Type operator op(Argument list) { Function Body}
+
+Functors -- overloading () in a class
+Virtual functions -- virtual in base class
+
+MyCustomClass(int value, const std::string& str) : x(value), name(str) -- initialise x with value and name with str	

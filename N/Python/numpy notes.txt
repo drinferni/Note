@@ -1,0 +1,35 @@
+numpy notes
+numpy.power(n) == raise all the elements to the power n
+numpy.array(array) == make numpy array
+numpy array dimension == axes
+numpy.zeros(lenght), numpy.ones(lenght), np.empty(lenght)
+numpy.arrange(range,step)== acending order
+numpy.linespace(range,number of items) == array with values that are spaced linearly in a specified interval
+dtype=data type == can be added to the array as a additional argument
+numpy.sort(arr) optimization
+numpy.argsort(arr,axis= ,kind= ,order= ) == kind : quicksort(default),mergesort,heapsort,stable, oder: his argument specifies which fields to compare first, second, etc.
+numpy.lexsort(keys:(k, N) array or tuple containing k (N,)-shaped sequences, axis)
+numpy.searchsorted(a,v,side="",sorter=None) == Find indices where elements should be inserted to maintain order.
+numpy.concatenate((arr1,arr2),axis=)
+ndarray.ndim , ndarray.size , ndarray.shape
+ndarray.reshape()
+ndarray[np.newaxis,:] == increase the dimension of the array by one
+np.expand_dims(ndarray,axis= ) == add the dimension in the axis
+slicing a numpy array == ndarray[:,:...n diminsions]
+numpy.vstack((a1,a2))
+numpy.hstack((a1,a2))
+ndarray2=ndarray1.copy()
+numpy.hsplit(ndarray,[::])
+view/copy mode
+numpy.sum(axis= )
+'+'/'-'/'*'/'/'
+numpy.func(axis= )  == func = min,max,sum.mean.prod.std
+numpy.unique(ndarray,axis= ,return_index/return_count=True/False)
+ndarray.transpose()
+ndarray.reshape()
+numpy.flip(ndarray,axis= ) == reverse
+ndarray.flatten() , ndarray.ravel() == make tha array 1D, flatten makes a new array, ravel works in view
+numpy.save('file_name',ndarray)
+numpy.load('file_name')
+savez and loadz to save and load multiple numpy objects
+savetxt and loadtxt to save numpy arrays as text or csv file

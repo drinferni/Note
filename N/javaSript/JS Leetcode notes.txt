@@ -1,0 +1,22 @@
+JS Leetcode notes
+nullish coalescing operator == ?? checks if the value on the left-hand side is null or undefined, and if so, it returns the value on the right-hand side. Otherwise, it returns the value on the left-hand side eg--
+Array.prototype.last = function() {
+    return this[this.length - 1] ?? -1;
+};
+
+// Example usage:
+const array = [1, 2, 3, 4, 5];
+console.log(array.last()); // Output: 5
+
+const emptyArray = [];
+console.log(emptyArray.last()); // Output: -1
+
+error constructor == Error -- .message, .name , .stack
+throw new Error(" ") -- creates a new error
+extends is used in JavaScript to establish a class inheritance relationship, allowing one class (the subclass) to inherit the properties and methods of another class (the parent class).
+super keyword is used inside subclass constructors to call the constructor of the parent class.
+Promises :: Promise.resolve().then func_1 ().then (func_2).....  .catch(fun_fail);
+asyn functions and await replaces Promise
+setTimeout (funtion () {  },time); or setTimeout (funtion_name,time,arguments of the function);
+clearTimeout(timeout_var) -- clears the set timeout -- timeout_var == timeout_ID returned setTimeout
+setInterval same syntax and properties like setTimeout but it continues to run after the interval

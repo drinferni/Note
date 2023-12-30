@@ -1,0 +1,8 @@
+python oop
+class: variables methods
+methods: give the class itself as the first argument hence every method has self as the first argument
+constructor :: __init__(self) executed when the class instance is created
+def __init__ (self,name:str,price:float...) --- for providing datatype if the input
+assert == to run validations on input in construction 
+assert conditions, error_string(not nessasary)
+ 

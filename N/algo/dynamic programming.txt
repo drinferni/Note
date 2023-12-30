@@ -1,0 +1,12 @@
+dynamic programming
+
+0/1 Knapsack Problem
+tabular method -- V is the matrix with rows first row as 0.
+V[i,w] = max { V[i-1,w] , V [i-1,w-w[i]] + P[i]} 
+
+-- memoization
+top k elements algorithm(heap)
+sliding window(hashset)
+backtracking
+breath first search and depth first search
+topology search

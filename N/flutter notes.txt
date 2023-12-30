@@ -1,0 +1,25 @@
+flutter 
+dart == python + c++
+taking input :: stdin.readLineSync()
+printing output :: print()
+widget
+dynamic variable_name == can change type
+List<datatype> list_name=[ ];
+list.add(' ');
+list.remove(' ');
+flutter create -t app <app-directory> == to make an app
+class constructor ==> 
+Class_name(variables) {
+	this.variable=
+	.
+	.
+	.
+}
+
+class class_1 extend class_2 {}
+
+root widget == MaterialApp
+home:Scaffold
+appBar:AppBar
+title:Text(" ")
+centerTitle: true; == centers the widget wrt to parent

@@ -1,0 +1,44 @@
+pandas
+
+pandas.Series([.....]) == creates a list of values,letting pandas create a default integer index
+pandas.date_range("YYYYMMDD",periods= ) 
+pd.DataFrame(unspecifies info, spesified info)
+pd.DataFrame(dictionary, keys -> columns)
+viewing  -- data_frame.head(N)
+	--data_frame.tail(N)
+	--data_frame.index
+	--data_frame.columns
+	--data_frame.to_numpy() (doesnot contain index or labels)
+data_frame.describe()
+data_frame.sort_index(axis= , ascending=False)
+data_frame.sort_values(by=column_name)
+data_frame["column_name"]
+data_frame[:] (slicing on index)
+data_frame.loc[rows-label,columns-label]
+data_frame.iloc[rows-index,columns-index]
+data_frame[condition] 
+data_frame[data_frame[column].isin(list of value)]
+np.nan == NaN
+data_frame.dropna(how="any")  (drops any rows that have missing data)
+data_frame.fillna(value= )
+pd.isna(data_frame)
+data_frame.mean() --mean on columns
+data_frame.mean(1) -- mean on rows
+data_frame.apply(function) -- applies a user defined function to the data
+data_frame.value_counts()
+pandas.concat(list)
+pandas.merge(data_frame1,data_frame2,on= )
+data_frame.groupby(column)[columns to display].function (like summ())
+pandas.MultiIndex.from_tuples(tuples,name= list of colomns)
+data_frame_new=data_frame_old.stack()
+data_frame=dataframe.unstack(0/1)
+pandas.pivot_table(data_frame,value=column_name,index=list of column_name,columns=list of column_name)
+new_Series=Series .cat.rename_categories(new_categories)
+dataframe.to_csv(name of the file)
+pandas.read_csv(name of the file)
+dataframe.to_hdf(file_name,dataframe)
+pandas.read_hdf(filename,dataframe)
+fataframe.to_excel(filename,sheet_name="SheetN")
+pandas.read_excel(filename,Sheetname,index_col= ,na_value=[" "])
+
+

@@ -1,0 +1,85 @@
+css 
+
+tags == tag {}
+class of a specific class == tag.class {}
+class == .class {}
+ID == #id {} 
+plus == tag1 + tag2 {}
+artibute specific tag selection == tag[attribute] {}
+targeting a specific tag based on location == tag1 tag2 {}
+
+clac() allows to perform calculation to compute the value of a css property
+
+transform : translate() , rotate() , scale() , skew(), matrix() 
+
+Absolute Length units : px,pt,in
+RElative Lenght Units : %, em ( relative ti the element size), rem(relative to the root element usually html) , vw (viewport width) , vh (viewport height), vmin (viwport minimum), vmax (viewport maximum).
+Angle Units: deg, red
+Time units: s,ms
+Other units : fr represent the fraction of the available space in a CSS Grid or CSS Flexbox layout. , ch (character) Represent the width odf the "0" character in the elemet font.
+
+@media (condition  min-width/max-width: ) -- make the webpage more responsive
+
+Pseudo-classes (tag:pseudo-classes) 
+	-- hover
+	--active (button is clicked)
+	-- focus (when an input field is selected)
+	-- first-child (like first item on the list, tag is the child)
+	-- nth-child(N*n)
+Psedo-elements (tag::pseudo-elements) 
+	-- before == inserts content before the content of an element
+	-- after == inserts content after the content of an element
+	-- first-line 
+	-- first-letter
+	-- selection
+Combinators
+	-- descendant (space) nested inside
+	--child (>) direct children
+	--adjecent (+) immediately siblings 
+	--general sibling (~) all siblings
+
+universal selecter == *
+an ID can be used only once per page
+tag[attr~=value] -- matches elements with an attr attribute whose value is exactly value, or contains value in its (space separated) list of values.
+tag[attr|=value] -- matches elements with an attr attribute whose value is exactly value or begins with value immediately followed by a hyphen
+tag[attr^=value] -- matches elements with an attr attribute, whose value begins with value
+tag[attr$=value] -- matches elements with an attr attribute whose value ends with value
+tag[attr*=value] -- matches elments with an attr attributw whose value contains value anywhere within the string
+tag[attr = value i] -- to match attribute values case-insensitively you can use the value i before the closing bracket.
+Powerful property :: all - cater to all the property of the element
+
+controlling inheritance -- inherit,initial,revert,revert-layer,unset
+
+@layer layer1,...., layern;  layern>layer1 in priority
+import layer :: @import url("...") layer(layer_name);
+nested layer
+display :: block ,inline, none, grid,flex;
+background :: background-color, background-image , repeat: no-repeat,repeat-x,repeat-y,repeat, background-size :cover contain, background-image : linear-gradient (angle,color1,color2); multipple background image using comma
+border border-*-radius
+overflow: hidden,scroll,
+text: font-size, text-transform,font-weight,text-shadow,text-align,font-family
+list : list-style-image: url();
+display: flex ( justify-content:center/space around ||| algn-items:center,flex-start ||| align-content:center/flex-start/flex-end ||| flex-wrap:wrap) 
+	--flex-shrink
+	--flex-grow
+	-- flex: flex-grow flex-shrink flex-basis 
+grid : 2d flex :: 
+	--grid-template-columns: column1,......columnN
+	--grid-template-row
+	--grid-auto-rows: minmax(150px,auto)
+	--grid-gap
+	--grid-template-areas (along with grid-area)
+	--grid-column-start and grid-column-end
+	--alignment same as flex box
+	--align-self (for each grid itmes)
+float == left/right
+clear == left/right/both
+position == static/relative/absolute/fixed/sticky
+	--top,left,right
+	--z-index
+columns ==
+	--column-count:
+	--column-width:
+	--column-gap:
+	--column-rule:
+	--column-span:none/all

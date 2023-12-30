@@ -1,0 +1,17 @@
+javascript
+array.shift(); remove the first element
+array.unshift(....); add the element at the start of the array
+array -> string == JSON.stringify(array)
+strict equality (===) : doesn't convert
+(==) convert into same types
+Use dot (.)/bracket ([....]) to access the properties of the objects
+object.hasOwnProperty(property) == use to check if objec thas the property
+For space properties use bracket notation
+Math.random() == random number in [0,1)
+Math.floor == floor operation
+parseInt(str) == returns the corresponding int
+.filter(conditions)  == include if condition is true
+rest operator (...args) == take the parameter and convrt it into arrays
+spread operator 
+destructer operator  :: const {property : variable} = object
+template literals :: add variables in the string   
